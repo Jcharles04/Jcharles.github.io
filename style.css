@@ -31,10 +31,12 @@ body {
 }
 .title2 {
     font-family: "Raleways-extra-bold";
+    font-weight: 100;
     font-size: 30px;
 }
 .title3 {
-    font-family: "Raleways-extra-bold";
+    font-family: "Raleways-bold";
+    font-weight: 100;
     font-size: 22px ;
     
 }
@@ -61,7 +63,8 @@ header {
     grid-template-columns: 12% 1fr 13% 11% 9.5%;
     grid-template-rows: 140px;
     font-size:21px;
-    font-weight: bold;    
+    font-family: "Raleways";
+    font-weight: 600;    
 }
 
 a {
@@ -159,7 +162,7 @@ a {
     padding-left: 1em;
     font-size: 22px;
     font-family: "Raleways-bold";
-    font-weight: bold;
+    font-weight: 100;
     border-top: 2px solid #F2F2F2; 
     border-bottom:  2px solid #F2F2F2;
 }
@@ -178,6 +181,7 @@ a {
     width: 195px;
     font-size: 22px;
     font-family: "Raleways-bold";
+    font-weight: 100;
 }
 
 #locationSearch button .icon {
@@ -227,6 +231,7 @@ a {
     transition: 200ms ease;
     font-size: 24px;
     font-family: "Raleways-bold";
+    font-weight: 100;
 }
 
 #filtreBoite .filter:hover span {
@@ -363,6 +368,7 @@ a {
 
 #seeMore {
     font-family: "Raleways-extra-Bold";
+    font-weight: 100;
     font-size: 22px;
     color: #000;
 }
@@ -583,7 +589,7 @@ footer a{
 }
 
 /*--------------------------------
-|        MEDIA QUERIES            |
+|        MEDIA QUERIES           |
 --------------------------------*/
 
 @media only screen and (max-device-width : 1366px){
@@ -602,11 +608,13 @@ footer a{
 
     .title2 {
         font-family: "Raleways-extra-bold";
+        font-weight: 100;
         font-size: 60px;
     }
 
     .title3 {
         font-family: "Raleways-extra-bold";
+        font-weight: 100;
         font-size: 45px ;   
     }
 
@@ -653,6 +661,7 @@ footer a{
         grid-row: 1;
         justify-content: flex-end;
         font-family: "Raleways-extra-bold" ;
+        font-weight: 100;
         font-size: 42px;
     }
 
@@ -718,6 +727,7 @@ footer a{
         padding-left: 1em;
         font-size: 50px;
         font-family: "Raleways-extra-bold";
+        font-weight: 100;
     }
 
     #locationSearch button {
@@ -754,6 +764,7 @@ footer a{
         font-size: 42px;
         padding: 0 1em 0 1.6em;
         font-family: "Raleways-extra-bold";
+        font-weight: 100;
     }
 
     #filtreBoite .filter::before {
@@ -836,6 +847,7 @@ footer a{
         margin:45px 0 60px 0;
         font-size: 50px;
         font-family: "Raleways-extra-bold";
+        font-weight: 100;
     }
 
     /*---*/
